@@ -1,24 +1,30 @@
+/* Impostato forma dei bordi e stile font */
 *{
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
+/* Impostato margini per l'header */
 header{
     text-align: center;
     padding: 0;
     margin: 10px 100px;
 }
+/* Formattazzione titolo */
 h1{
     color: #e53170;
     font-size: 50px;
 }
+/* Impostato dimensioni e orientamento immagine */
 img{
     float: left;
     margin-right: 20px;
     height: 149.53px;
 }
+/* Margini del corpo centrale della pagina */
 main{
     margin: 10px 5%;
 }
+/* Impostazione grafica di ogni singolo profilo */
 .membro{
     width: 30%;
     background-color: #0f0e17;
@@ -29,7 +35,14 @@ main{
     margin: 1.5%;
     
 }
+/* Scelto colore ed eliminato sottolineatura dai link */
 a{
     color: #48bde0;
     text-decoration: none;
+}
+/* Creazione del contenitore per tutti i profili */
+.container::after{
+    content: "";
+    clear: both;
+    display: table;
 }
