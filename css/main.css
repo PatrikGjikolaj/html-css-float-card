@@ -5,7 +5,7 @@
 header{
     text-align: center;
     padding: 0;
-    margin: 10px 5%;
+    margin: 10px 100px;
 }
 h1{
     color: #e53170;
@@ -23,15 +23,13 @@ main{
     width: 30%;
     background-color: #0f0e17;
     color: white;
-    display: inline-block;
     vertical-align: middle;
     box-shadow: 0 0 10px 1px #000000;
-
+    float: left;
+    margin: 1.5%;
+    
 }
 a{
     color: #48bde0;
     text-decoration: none;
-}
-div div:nth-child(2){
-    margin: 20px calc(100% - 96%);
 }
