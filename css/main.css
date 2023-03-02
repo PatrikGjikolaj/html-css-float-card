@@ -1,13 +1,36 @@
 *{
     box-sizing: border-box;
     font-family: MFRooneySansRegular, LucidaGrande, "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
-    padding: 0;
-    margin: 10px 5%;
 }
 header{
     text-align: center;
+    padding: 0;
+    margin: 10px 5%;
 }
 h1{
-    color: rgb(229, 49, 112);
+    color: #e53170;
     font-size: 40px;
+}
+img{
+    float: left;
+    margin-right: 20px;
+    height: 149.53px;
+}
+main{
+    margin: 10px 5%;
+}
+.membro{
+    width: 30%;
+    background-color: #0f0e17;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+a{
+    color: #48bde0;
+    text-decoration: none;
+}
+div div:nth-child(2){
+    margin: 20px calc(100% - 96%);
 }
