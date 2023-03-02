@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    font-family: MFRooneySansRegular, LucidaGrande, "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+    padding: 0;
+    margin: 10px 5%;
+}
+header{
+    text-align: center;
+}
+h1{
+    color: rgb(229, 49, 112);
+    font-size: 40px;
+}
